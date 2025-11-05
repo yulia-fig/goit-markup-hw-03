@@ -417,11 +417,20 @@ margin: 120px auto;
     display: inline-block;
     padding-top: 100px;
     margin-bottom: 16px;
-    display: inline-block;
     
 }
 .footer-logo {
-    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+        color: #4d5ae5;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        padding-top: 100px;
+        margin-bottom: 16px;
     }
 .footer-text {
     color: #F4F4FD;
