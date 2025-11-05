@@ -121,13 +121,6 @@ img {
 .header-link:focus {
     color: #404bbf;
 }
-.contacts-section {
-
-}
-.contacts-container {
-    display: flex;
-    align-items: center;
-}
 .contacts {
     margin-right: auto;
     border-bottom: 1px solid var(--cornflower);
@@ -144,8 +137,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-right: 0px;
-}
+}    
 .contacts-item {
     color: #434455;
     display: flex;
@@ -156,7 +148,6 @@ img {
     display: block;
     padding: 24px 0;
     display: flex;
-    margin-right: 0;
     text-decoration: none;
 }
 .contacts-link:hover,
@@ -301,6 +292,7 @@ margin: 120px auto;
 }
 .team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-info {
     padding-top: 32px;
@@ -350,7 +342,6 @@ margin: 120px auto;
     letter-spacing: 0.02em;
     align-items: center;
     margin-bottom: 72px;
-    margin-bottom: 8px;
 }
 .portfolio-list {
     font-weight: 500;
@@ -389,7 +380,6 @@ margin: 120px auto;
     color: var(--navy-blue);
     padding-top: 32px;
     margin-bottom: 8px;
-    margin-bottom: 0
 }
 .portfolio-text {
     color: #434455;
@@ -427,6 +417,7 @@ margin: 120px auto;
     display: inline-block;
     padding-top: 100px;
     margin-bottom: 16px;
+    display: inline-block;
     
 }
 .footer-logo {
