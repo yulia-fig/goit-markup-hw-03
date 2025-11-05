@@ -340,14 +340,16 @@ margin: 120px auto;
     flex-wrap: wrap;
     align-items: center;
     gap: 48px 24px;
-    width: calc((100% - 48px) / 3);
 }
 .portfolio-item {
     background-color: #FFFFFF;
+    margin-bottom: 8px;
+    width: calc((100% - 48px) / 3);
+}
+.portfolio-item-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .portfolio-title {
     text-transform: capitalize;
@@ -358,7 +360,7 @@ margin: 120px auto;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     color: #434455;
