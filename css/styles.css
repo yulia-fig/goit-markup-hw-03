@@ -110,8 +110,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding: 24px, 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 0;
+    gap: 40px;
 }
 .header-link:hover {
     color: #404bbf;
@@ -128,9 +130,10 @@ img {
 }
 .contacts {
     display: flex;
-    font-style: normal;
     margin-right: auto;
     border-bottom: 1px solid var(--cornflower);
+    font-style: normal;
+    margin-left: auto;
 }
 .contacts-list {
     color: #2e2f42;
@@ -155,6 +158,7 @@ img {
     padding: 24px, 0;
     display: flex;
     margin-right: 0;
+    text-decoration: none;
 }
 .contacts-link:hover,
 .contacts-link:focus {
