@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, h6, p {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+img {
+    display: block;
+}
 .container {
     max-width: 1158px;
     padding-left: 15px;
@@ -47,15 +50,20 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cornflower);
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
     display: flex;
     align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 .header-nav {
     color: #2e2f42;
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .header-link-logo {
     font-family: "Raleway", sans-serif;
@@ -71,7 +79,15 @@ h1, h2, h3, h4, h5, h6, p {
     margin-right: 76px;
 }
 .header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
     color: #2e2f42;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
     padding: 24px, 0;
     margin-right: 76px;
 }
@@ -81,6 +97,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-right: 40px;
 }
 .header-link {
     display: block;
@@ -91,6 +108,7 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px, 0;
+    margin-right: 0;
 }
 .header-link:hover {
     color: #404bbf;
@@ -120,7 +138,8 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     align-items: center;
     gap: 40px;
-    }
+    margin-right: 0px;
+}
 .contacts-item {
     color: #434455;
 }
@@ -133,6 +152,8 @@ h1, h2, h3, h4, h5, h6, p {
 .contacts-link:focus {
     color: #404bbf;
 }
+
+/* Main */
 .main-section {
     background-color: #2e2f42;
     font-weight: 700;
@@ -175,6 +196,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Our Advantages */ 
 .advantages-section {
     color: #434455;
+    padding: 120px 0 120px;
 }
 .advantages-container {
     display: flex;
@@ -192,6 +214,7 @@ display: flex;
 align-items: center;
 gap: 24px;
 margin: 120px auto;
+width: calc ((100% - 72px) / 4);
 }
 .advantages-title {
     font-family: "Roboto", sans-serif;
@@ -200,7 +223,7 @@ margin: 120px auto;
     color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .advantages-text {
     font-family: "Roboto", sans-serif;
@@ -276,6 +299,7 @@ margin: 120px auto;
     color: #2e2f42;
     text-transform: capitalize;
     line-height: 1.11;
+    padding: 120px 0 120px 0;
 }
 .portfolio-container {
     display: flex;
@@ -283,6 +307,9 @@ margin: 120px auto;
     justify-content: center;
     flex-direction: column;
     gap: 24px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-title-middle {
     color: #2e2f42;
@@ -291,8 +318,7 @@ margin: 120px auto;
     font-size: 36px;
     letter-spacing: 0.02em;
     align-items: center;
-    margin-top: 120px;
-    margin-bottom: 72px;
+    margin-bottom: 72px
 }
 .portfolio-list {
     font-weight: 500;
@@ -302,11 +328,13 @@ margin: 120px auto;
     color: #2e2f42;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 48px 24px;
 }
 .portfolio-item {
     background-color: #FFFFFF;
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-title {
     text-transform: capitalize;
@@ -316,6 +344,8 @@ margin: 120px auto;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    padding-top: 32px;
+    padding-bottom: 8px;
 }
 .portfolio-text {
     color: #434455;
@@ -324,10 +354,11 @@ margin: 120px auto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 /*Footer*/
 .footer-section {
-    margin-top: 120px;
+    background-color: #2e2f42;
 }
 .footer-container {
     align-items: flex-start;
@@ -335,7 +366,6 @@ margin: 120px auto;
     gap: 16px;
 }
 .footer {
-    background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
 }
