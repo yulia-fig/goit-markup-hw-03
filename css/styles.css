@@ -407,6 +407,7 @@ margin: 120px auto;
     padding: 100px 0;
 }
 .footer-link-logo {
+    display: block;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
