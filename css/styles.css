@@ -399,6 +399,7 @@ margin: 120px auto;
     align-items: flex-start;
     flex-direction: column;
     display: flex;
+    padding-top: 100px;
 }
 .footer {
     font-family: "Raleway", sans-serif;
@@ -415,10 +416,7 @@ margin: 120px auto;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    padding-top: 100px;
     margin-bottom: 16px;
-    margin-left: 156px;
-    
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -429,9 +427,6 @@ margin: 120px auto;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        display: inline-block;
-        padding-top: 100px;
-        margin-bottom: 16px;
     }
 .footer-text {
     color: #F4F4FD;
@@ -444,5 +439,4 @@ margin: 120px auto;
     text-align: left;
     padding: 100px 0;
     max-width: 264px;
-    margin-left: 156px;
 }
