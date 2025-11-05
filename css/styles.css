@@ -55,9 +55,10 @@ img {
 .header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .header-nav {
     color: #2e2f42;
@@ -124,6 +125,7 @@ img {
     align-items: center;
 }
 .contacts {
+    display: flex;
     font-style: normal;
     margin-right: auto;
     border-bottom: 1px solid var(--cornflower);
@@ -255,6 +257,7 @@ margin: 120px auto;
     flex-direction: column;
     gap: 24px;
     width: calc(100% - 72px) / 4;
+    border-radius: 0px 0px 4px 4px;
 }
 .team-title-middle {
     font-family: "Roboto", sans-serif;
@@ -284,9 +287,10 @@ margin: 120px auto;
 }
 .team-item {
     background-color: #FFFFFF;
+}
 .team-info {
-    padding: 32px 0;
-    border-radius: 0 0 4px 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .team-title {
     font-family: "Roboto", sans-serif;
@@ -294,10 +298,10 @@ margin: 120px auto;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--navy-blue);
     margin-bottom: 8px;
     margin-top: 32px;
+    text-align: center;
 }
 .team-text {
     color: #434455;
@@ -314,7 +318,8 @@ margin: 120px auto;
     color: #2e2f42;
     text-transform: capitalize;
     line-height: 1.11;
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .portfolio-container {
     display: flex;
@@ -330,7 +335,7 @@ margin: 120px auto;
     font-size: 36px;
     letter-spacing: 0.02em;
     align-items: center;
-    margin-bottom: 72px
+    margin-bottom: 72px;
 }
 .portfolio-list {
     font-weight: 500;
@@ -341,8 +346,10 @@ margin: 120px auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
     align-items: center;
-    gap: 48px 24px;
+    gap: 24px;
     padding: 0;
     margin: 0;
 }
@@ -355,6 +362,8 @@ margin: 120px auto;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-title {
     text-transform: capitalize;
