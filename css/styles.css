@@ -216,6 +216,9 @@ align-items: center;
 gap: 24px;
 margin: 120px auto;
 }
+.advantages-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
 .advantages-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
