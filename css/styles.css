@@ -401,6 +401,8 @@ margin: 120px auto;
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-link-logo {
     font-family: "Raleway", sans-serif;
