@@ -392,9 +392,6 @@ margin: 120px auto;
     margin-bottom: 0
 }
 /*Footer*/
-.footer-section {
-    background-color: #2e2f42;
-}
 .footer-container {
     align-items: flex-start;
     flex-direction: column;
@@ -402,12 +399,12 @@ margin: 120px auto;
     padding-top: 100px;
 }
 .footer {
+    background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     padding: 100px 0;
 }
 .footer-link-logo {
-    display: block;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-weight: 700;
